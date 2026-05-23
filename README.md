@@ -4,7 +4,7 @@
 **Team VadaPav:** Ashmit Dutta, Luke Smith, David Mun
 
 ---
-
+Due to academic integrity guidelines, full implementation of this processor is kept hidden. Detailed walkthrough, architecture discussion, and code review available by request or during an interview. Feel free to message me on Linkedin (https://www.linkedin.com/in/luke-smith-500730377/)
 ## Overview
 
 `mp_ooo` is a synthesizable, out-of-order RISC-V processor implementing the RV32IM ISA (excluding `FENCE*`, `ECALL`, `EBREAK`, and `CSRR`). The design uses **Explicit Register Renaming (ERR)** with Tomasulo-style dynamic scheduling, a split L1 instruction/data cache hierarchy backed by a banked-burst DRAM model, and a suite of advanced microarchitectural features targeting the ECE 411 class design competition.
